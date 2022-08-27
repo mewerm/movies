@@ -1,6 +1,4 @@
-#Movies
-
-The app with an actual stack
+# Movies - The app with an actual stack
 
 Will use
 
