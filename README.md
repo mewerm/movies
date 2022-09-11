@@ -17,7 +17,7 @@
 > - The Application itself 
 > - And the replenishment of my knowledge
 
-
+## How it's work: 
 
 https://user-images.githubusercontent.com/103746333/189552924-7ccc400f-1dc6-4092-872d-f9099507d3cf.mp4
 
