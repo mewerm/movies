@@ -35,7 +35,6 @@ fun MainScreen(navController: NavHostController, viewModel: MainViewModel) {
         }
     }
 }
-
 @Composable
 fun MovieItem(item: Movies) {
     Row(
