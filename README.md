@@ -1,5 +1,5 @@
 # Movies 
-## The symply app with an actual stack
+### The symply app with an actual stack
 
 
 #### Will use:
@@ -13,3 +13,20 @@
 - **Kotlin Corutines** 
 - **Retrofit** 
 - **Hilt**
+> **Result:** 
+> - The Application itself 
+> - And the replenishment of my knowledge
+
+
+
+https://user-images.githubusercontent.com/103746333/189552924-7ccc400f-1dc6-4092-872d-f9099507d3cf.mp4
+
+
+
+https://user-images.githubusercontent.com/103746333/189553484-5af46909-5e3b-45b6-9cad-be731b6a22dc.mp4
+
+
+
+https://user-images.githubusercontent.com/103746333/189553491-8c910130-24d8-4d0b-b5b0-7dfdc827ccdc.mp4
+
+
