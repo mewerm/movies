@@ -14,5 +14,4 @@ fun MainScreen() {
     ) {
         Text(text = "Hi here is Main Activity Bro. Просто потому, что  all is work good =)")
     }
-
 }
