@@ -2,10 +2,9 @@ package com.maximmesh.movies.screens
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.Icon
+import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.runtime.*
@@ -13,8 +12,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.maximmesh.movies.MainViewModel
 import com.maximmesh.movies.navigation.Screens
@@ -48,12 +50,21 @@ fun Splash(alpha: Float) {
     ) {
         Icon(
             modifier = Modifier
-                .size(120.dp)
+                .size(140.dp)
                 .alpha(alpha = alpha),
             imageVector = Icons.Default.PlayArrow,
             contentDescription = "",
-            tint = Color.Magenta
+            tint = Color.Red
         )
+        Row {
+            Text(
+                text = "Movies ",
+                fontWeight = FontWeight.Bold,
+                fontSize = 30.sp,
+                fontFamily = FontFamily.Serif,
+            )
+
+        }
     }
 }
 
